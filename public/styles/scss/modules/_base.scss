@@ -1,0 +1,24 @@
+//Define the initialize or base layout/structure of your page(s)
+body {
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: $dark-grey;
+  font-family: sans-serif;
+}

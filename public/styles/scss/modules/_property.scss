@@ -1,0 +1,132 @@
+#single-property {
+  .container {
+    width: 100vw;
+    max-width: 100%;
+    min-height: calc(100vh - #{$header-height});
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+  }
+  .title {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    align-self: flex-start;
+    padding: 10px 0px 10px 0px;
+  }
+  .grid-box {
+    margin-top: 10px;
+    width: 90%;
+    max-width: 1200px;
+    min-height: calc(100vh - #{$header-height} - 100px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr; /* keeps all grid boxes same height, else remove */
+    grid-gap: 0px;
+    align-items: center;
+
+    > div {
+      height: 100%;
+    }
+    .left {
+      background-size: cover;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .right {
+      padding: 20px 20px;
+      max-height: 100%;
+      display: flex;
+      flex-direction: column;
+      // overflow-y: scroll;
+    }
+
+    .name {
+      padding-bottom: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+    }
+
+    .top-highlight-info {
+      padding-bottom: 2px;
+      display: flex;
+      align-items: flex-end;
+      p {
+        padding-left: 10px;
+        padding-bottom: 2px;
+      }
+    }
+
+    .address {
+      font-size: 13px;
+      padding-bottom: 25px;
+    }
+
+    .description {
+      height: 200px;
+      max-height: 200px;
+      overflow-y: auto;
+
+      p {
+        line-height: 20px;
+      }
+    }
+
+    #property-map {
+      height: 200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .options {
+    padding-top: 5px;
+    .wrapper {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .edit-button {
+      background: $dark-grey;
+      border: none;
+      padding: 6px 15px;
+      color: #ffffff;
+      transition: background 0.3s;
+      cursor: pointer;
+      font-size: 13px;
+      margin-top: 0px;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .edit-button :hover {
+      background: #161616;
+    }
+
+    .delete-button {
+      background: white;
+      border: 1px solid #e35151;
+      padding: 4px 10px;
+      color: #e35151;
+      transition: background 0.3s;
+      cursor: pointer;
+      font-size: 13px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .delete-button:hover {
+      background: #e92121;
+      color: white;
+    }
+  }
+}

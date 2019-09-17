@@ -1,0 +1,15 @@
+{
+  "name": "webdev-default-structure",
+  "version": "1.0.0",
+  "description": "Use this default setup structure for web development",
+  "scripts": {
+    "dev-sass": "node-sass public/styles/scss/primary.scss public/styles/main.css -w"
+  },
+  "author": "lars",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.9.4"
+  },
+  "staticPath": "src/assets"
+}

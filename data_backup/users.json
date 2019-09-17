@@ -1,0 +1,73 @@
+{
+  "users": {
+    "5d78baf68f62e": {
+      "name": "Sarah Liege",
+      "email": "sarahlie@brux239b.be",
+      "password": "$2y$10$e6EOuNymxWq64xZ6D2CPaumwmtajDLZj9Bw7.XhtvkicpRrHu3t0u",
+      "activated": true,
+      "activationKey": "5d78baf68f631",
+      "userCreated": 1568193270,
+      "id": "5d78baf68f62e",
+      "userType": "users"
+    },
+    "5d7e0b4085e35": {
+      "name": "Jonas Filibinos",
+      "email": "user@user.advena.me",
+      "password": "$2y$10$bNnKE45TrzEHQlxIbCnM2.XDqR62ASYkz4stysmEv9y0n3F4bT2Jy",
+      "activated": true,
+      "activationKey": "5d7e0b4085e36",
+      "userCreated": 1568541504,
+      "id": "5d7e0b4085e35",
+      "userType": "users"
+    }
+  },
+  "agents": {
+    "5d78b9d8141db": {
+      "name": "Francois Mandelieu 3",
+      "email": "develop.kiwi@gmail.com",
+      "password": "$2y$10$dX4GAjK/xXAeijE7YDdJCebyhlfJmRKPqkEaej2e7wo6vPNhy/rRO",
+      "activated": 1,
+      "activationKey": "5d78b9d8141dd",
+      "userCreated": 1568192984,
+      "id": "5d78b9d8141db",
+      "userType": "agents",
+      "properties": [
+        "5d78c0c1d5882",
+        "5d78d8f5c0225",
+        "5d7b62381a159",
+        "5d7b6383836c7"
+      ]
+    },
+    "5d7b648b94d53": {
+      "name": "Marc Olafson",
+      "email": "marcOlaf1965@dkmail9.dk",
+      "password": "$2y$10$s8HGyCh0OZFlLed5HUqmTOfdfj3StkD/oRv0VQ/ks5xfXqouucwJ2",
+      "activated": true,
+      "activationKey": "5d7b648b94d55",
+      "userCreated": 1568367755,
+      "id": "5d7b648b94d53",
+      "userType": "agents",
+      "properties": [
+        "5d7b65858085d",
+        "5d7b66a401d46",
+        "5d7b6c27c55f7",
+        "5d7b7ccbb17c8",
+        "5d7b909f05c19",
+        "5d7b910c4d32a",
+        "5d7b925061176",
+        "5d7b929034e27"
+      ]
+    },
+    "5d7cea3b363cc": {
+      "name": "John Doe",
+      "email": "agent@agent.advena.me",
+      "password": "$2y$10$HS.1YNHs932GRDRWxhinKO6uEDrDjZknww5IxxXAPFVgfHXgZVLLm",
+      "activated": true,
+      "activationKey": "5d7cea3b363ce",
+      "userCreated": 1568467515,
+      "id": "5d7cea3b363cc",
+      "userType": "agents",
+      "properties": ["5d7cead89497c"]
+    }
+  }
+}

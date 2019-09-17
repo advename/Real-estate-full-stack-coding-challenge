@@ -1,0 +1,34 @@
+#about {
+  width: 100vw;
+  max-width: 100%;
+  min-height: calc(100vh - #{$header-height});
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  .title {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    align-self: flex-start;
+    padding: 10px 0px 10px 0px;
+  }
+  .container {
+    margin-top: 10px;
+    width: 90%;
+    max-width: 1200px;
+    min-height: calc(100vh - #{$header-height} - 100px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 50px;
+
+    ul,
+    li {
+      list-style-type: circle;
+      list-style-position: inside;
+    }
+  }
+}
